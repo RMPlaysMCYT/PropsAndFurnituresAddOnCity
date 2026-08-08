@@ -1,8 +1,11 @@
 bin
 output
+obj
 
 /bin
 /output
+/obj
 
 \bin
 \output
+\obj
