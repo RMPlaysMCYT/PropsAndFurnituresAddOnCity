@@ -3,9 +3,9 @@ using ingot.Core.Common;
 
 namespace MyAddon.Content.LootTables;
 
-public class CompactDirtLoot : LootTable
+public class CityChair2Loot : LootTable
 {
-    public override Identifier Identifier => "pafa_city:city_chair1";
+    public override Identifier Identifier => "pafa_city:city_chair2";
     public override LootTableCategory Category => LootTableCategory.Blocks;
     public override LootPool[] Pools =>
     [
