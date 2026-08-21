@@ -1,6 +1,5 @@
 ﻿using ingot.Core;
 using PropsAndFurnituresAddOnCity.Content.Blocks;
-using PropsAndFurnituresAddOnCity.Content.Entities;
 
 const string packUuid = "77f1fef2-bb39-411a-b25c-ae475c21169f";
 string dataDir = Path.Combine(AppContext.BaseDirectory, "Data");
