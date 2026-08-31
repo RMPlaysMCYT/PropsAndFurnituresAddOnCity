@@ -10,4 +10,4 @@ public class Powerbanks : Item
     public override string Texture => "my_item_icon";
     public override int MaxStackSize => 1;
     public override bool AllowOffhand => true;
-}
+} 
