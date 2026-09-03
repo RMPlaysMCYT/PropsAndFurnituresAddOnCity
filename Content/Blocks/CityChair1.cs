@@ -18,4 +18,4 @@ public class CityChair1 : Block
             Path.Combine(AppContext.BaseDirectory, "Data", "citychair1.png"))
     };
     public override string? Geometry => "geometry.pafacity_citychair";
-}~~
+}
