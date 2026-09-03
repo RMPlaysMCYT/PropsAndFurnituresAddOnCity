@@ -1,7 +1,6 @@
 using ingot.Core;
 using ingot.Core.Behaviour.Entity;
 using ingot.Core.Common;
-using ingot.Core.Resource;
 using ingot.Core.TraitSystem.Traits.Entity;
 
 public class HospitalBed : Entity

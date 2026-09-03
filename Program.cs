@@ -12,6 +12,10 @@ Pack pack = Pack.Create(packUuid, "Props And Furnitures Add-On City", "Addon Cre
     .AddItem<Powerbanks>();
     // .AddClientEntity<MyClientEntity>(); // materials / textures / geometry short-names
 
+pack.AddBlockTexture("citychair1", Path.Combine(dataDir, "citychair1.png"));
+
+
 pack.PackIcon = Path.Combine(dataDir, "pack_icon.png");
+
 
 pack.Compile("./output");
