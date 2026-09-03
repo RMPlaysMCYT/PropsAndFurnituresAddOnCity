@@ -17,6 +17,8 @@ pack.AddBlockTexture("citychair1", Path.Combine(dataDir, "citychair1.png"));
 pack.AddBlockTexture("citychair2", Path.Combine(dataDir, "citychair2.png"));
 
 
+pack.AddGeometry("geometry.pafacity_citychair", Path.Combine(dataDir, "pafacity_citychair.geo.json"));
+
 pack.PackIcon = Path.Combine(dataDir, "pack_icon.png");
 
 
