@@ -17,5 +17,5 @@ public class CityChair1 : Block
             MaterialInstance.RenderMethods.AlphaTest,
             Path.Combine(AppContext.BaseDirectory, "Data", "citychair1.png"))
     };
-    public override string? Geometry => "minecraft:geometry.pafacity_citychair";
+    public override string? Geometry => "geometry.pafacity_citychair";
 }
