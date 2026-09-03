@@ -13,8 +13,9 @@ public class CityChair2 : Block
     public override MaterialInstances MaterialInstances => new()
     {
         All = new MaterialInstance(
-            "pafa_city_city_chair1",
-            MaterialInstance.RenderMethods.Opaque,
-            Path.Combine(AppContext.BaseDirectory, "Data", "compact_dirt.png"))
+            "pafa_city_city_chair2",
+            MaterialInstance.RenderMethods.AlphaTest,
+            Path.Combine(AppContext.BaseDirectory, "Data", "citychair2.png"))
     };
+    public override string? Geometry => "geometry.pafacity_citychair";
 }

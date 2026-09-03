@@ -6,6 +6,7 @@ string dataDir = Path.Combine(AppContext.BaseDirectory, "Data");
 
 Pack pack = Pack.Create(packUuid, "Props And Furnitures Add-On City", "Addon Created By RMPlaysMCYT, Created using Ingot by Pyroboost")
     .AddBlock<CityChair1>()              // textures declared on the block class
+    .AddBlock<CityChair2>()              // textures declared on the block class
     // .AddItem<MyItem>()                // icon path declared on the item class
     .AddEntity<RoboticBin>()
     .AddItem<Id>()
@@ -13,6 +14,7 @@ Pack pack = Pack.Create(packUuid, "Props And Furnitures Add-On City", "Addon Cre
     // .AddClientEntity<MyClientEntity>(); // materials / textures / geometry short-names
 
 pack.AddBlockTexture("citychair1", Path.Combine(dataDir, "citychair1.png"));
+pack.AddBlockTexture("citychair2", Path.Combine(dataDir, "citychair2.png"));
 
 
 pack.PackIcon = Path.Combine(dataDir, "pack_icon.png");
