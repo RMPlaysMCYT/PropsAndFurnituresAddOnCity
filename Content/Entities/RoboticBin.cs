@@ -8,6 +8,7 @@ public class RoboticBin : Entity
     {
         ["Idle"] = "controller.animation.robotic_bin_idle",
         ["Open"] = "controller.animation.robotic_bin_open",
+        ["Opening"] = "controller.animation.robotic_bin_opening",
         ["Close"] = "controller.animation.robotic_bin_close"
     };
 
