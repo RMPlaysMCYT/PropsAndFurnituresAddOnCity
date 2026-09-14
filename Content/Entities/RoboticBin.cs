@@ -16,6 +16,7 @@ public class RoboticBin : Entity
         Animate = [
             "Idle",
             "Open",
+            "Opening",
             "Close"
         ]
     };
