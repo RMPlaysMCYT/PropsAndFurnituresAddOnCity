@@ -9,6 +9,7 @@ Pack pack = Pack.Create(packUuid, "Props And Furnitures Add-On City", "Addon Cre
     .AddBlock<CityChair2>()              // textures declared on the block class
     // .AddItem<MyItem>()                // icon path declared on the item class
     .AddEntity<RoboticBin>()
+    .AddEntity<HospitalBed>()
     .AddItem<Id>()
     .AddItem<Powerbanks>();
     // .AddClientEntity<MyClientEntity>(); // materials / textures / geometry short-names
