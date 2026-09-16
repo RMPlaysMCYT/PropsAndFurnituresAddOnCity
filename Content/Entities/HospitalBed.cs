@@ -15,4 +15,8 @@ public class HospitalBed : Entity
             "ride"
         ]
     };
+    public override Dictionary<string, string>? Animations => new()
+    {
+        ["ride"] = "controller.animation.hospital_bed_ride"
+    };
 }
