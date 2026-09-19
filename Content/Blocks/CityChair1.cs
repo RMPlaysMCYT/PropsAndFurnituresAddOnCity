@@ -1,5 +1,6 @@
 using ingot.Core.Behaviour.Block;
 using ingot.Core.Common;
+using ingot.Core.Scripting;
 
 namespace PropsAndFurnituresAddOnCity.Content.Blocks;
 
@@ -23,10 +24,10 @@ public class CityChair1 : Block
 
     public override BlockEvents? BlockEvents => new()
     {
-        PlayerInteractEvent = (player, block, world) =>
-        {
-            player.SendMessage("You have interacted with a City Chair!");
-            return true;
-        }
+        PlayerInteractEvent = ScriptHandler.Inline(
+            """
+            event.player.sendMessage("Compact dirt feels... dense.");
+            """
+        )
     };
 }
