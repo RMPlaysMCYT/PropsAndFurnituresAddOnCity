@@ -18,4 +18,15 @@ public class CityChair1 : Block
             Path.Combine(AppContext.BaseDirectory, "Data", "citychair1.png"))
     };
     public override string? Geometry => "geometry.pafacity_citychair";
+
+
+
+    public override BlockEvents? BlockEvents => new()
+    {
+        PlayerInteractEvent = (player, block, world) =>
+        {
+            player.SendMessage("You have interacted with a City Chair!");
+            return true;
+        }
+    };
 }
