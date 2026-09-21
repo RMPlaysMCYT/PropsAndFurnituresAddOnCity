@@ -1,8 +1,6 @@
 using ingot.Core.Behaviour.Block;
 using ingot.Core.Common;
 
-namespace PropsAndFurnituresAddOnCity.Content.Blocks;
-
 public class CityChair2 : Block
 {
     public override Identifier Identifier => "pafa_city:city_chair2";
