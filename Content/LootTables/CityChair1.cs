@@ -1,8 +1,5 @@
 using ingot.Core.Behaviour.Loot;
 using ingot.Core.Common;
-
-namespace MyAddon.Content.LootTables;
-
 public class CityChair1Loot : LootTable
 {
     public override Identifier Identifier => "pafa_city:city_chair1";

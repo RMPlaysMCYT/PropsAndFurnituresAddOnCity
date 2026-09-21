@@ -1,12 +1,11 @@
 using ingot.Core.Behaviour.Block;
+using ingot.Core.Behaviour.Loot;
 using ingot.Core.Common;
 using ingot.Core.Scripting;
-
-namespace PropsAndFurnituresAddOnCity.Content.Blocks;
-
 public class CityChair1 : Block
 {
     public override Identifier Identifier => "pafa_city:city_chair1";
+    public override LootTable? Loot => new CityChair1Loot();
     public override string? DisplayName => "City Chair";
     public override string? ResourceTexture => "pafa_city_city_chair1";
     public override string? Sound => "wood";
