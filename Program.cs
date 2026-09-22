@@ -17,6 +17,7 @@ Pack pack = Pack.Create(packUuid, "Props And Furnitures Add-On City", "Addon Cre
 
 pack.AddBlockTexture("citychair1", Path.Combine(dataDir, "citychair1.png"));
 pack.AddBlockTexture("citychair2", Path.Combine(dataDir, "citychair2.png"));
+pack.AddEntityTexture("hospitalbed", Path.Combine(dataDir, "hospital_bed.png"));
 
 
 pack.AddGeometry("geometry.pafacity_citychair", Path.Combine(dataDir, "pafacity_citychair.geo.json"));
