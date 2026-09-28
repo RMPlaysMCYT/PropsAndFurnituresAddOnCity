@@ -16,4 +16,14 @@ public class CityChair2 : Block
             Path.Combine(AppContext.BaseDirectory, "Data", "citychair2.png"))
     };
     public override string? Geometry => "geometry.pafacity_citychair";
+
+
+    public override BlockEvents? BlockEvents => new()
+    {
+        PlayerInteractEvent = ScriptHandler.Inline(
+            """
+            event.player.sendMessage("Compact dirt feels... dense.");
+            """
+        )
+    };
 }
