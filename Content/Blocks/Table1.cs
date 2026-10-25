@@ -8,7 +8,7 @@ public class Table1 : Block
     public override string? DisplayName => "Table 1";
     public override string? ResourceTexture => "pafa_city_table1";
     public override string? Sound => "wood";
-    public override LootTable? Loot => new CityChair3Loot();
+    public override LootTable? Loot => new Table1Loot();
     public override Enums.CatalogueCategory Category => Enums.CatalogueCategory.Construction;
     public override MaterialInstances MaterialInstances => new()
     {
