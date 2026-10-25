@@ -11,7 +11,7 @@ public class Table1Loot : LootTable
             Rolls = 1,
             Entries =
             [
-                new ItemLootEntry("pafa_city:city_chair1")
+                new ItemLootEntry("pafa_city:table1")
                 {
                     Weight = 1,
                     Functions = [new SetCount { Count = new IntRange(1, 2) }]
