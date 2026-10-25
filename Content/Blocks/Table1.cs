@@ -13,11 +13,11 @@ public class Table1 : Block
     public override MaterialInstances MaterialInstances => new()
     {
         All = new MaterialInstance(
-            "pafa_city_city_chair3",
+            "pafa_city_table1",
             MaterialInstance.RenderMethods.AlphaTest,
-            Path.Combine(AppContext.BaseDirectory, "Data", "citychair2.png"))
+            Path.Combine(AppContext.BaseDirectory, "Data", "table1.png"))
     };
-    public override string? Geometry => "geometry.pafacity_citychair";
+    public override string? Geometry => "geometry.pafacity_table1";
 
 
     public override BlockEvents? BlockEvents => new()
